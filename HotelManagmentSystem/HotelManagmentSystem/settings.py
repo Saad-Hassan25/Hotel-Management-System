@@ -156,3 +156,10 @@ STRIPE_SECRET_KEY = ''
 
 
 # Email configuration for Gmail
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'example@example.com'  # Your Gmail email address
+EMAIL_HOST_PASSWORD = 'YourPassword'  # Your Gmail password or app-specific password
+DEFAULT_FROM_EMAIL = 'example@example.com'  # Same as EMAIL_HOST_USER
