@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'HMS3',          # Your database name
         'USER': 'root',         # Your database user
-        'PASSWORD': 'saad',     # Your database password
+        'PASSWORD': '',     # Your database password
         'HOST': 'localhost',    # Database host (usually 'localhost')
         'PORT': '3306',         # MySQL default port
         'OPTIONS': {
@@ -149,10 +149,10 @@ STATIC_ROOT = 'H:\HMS\HotelManagmentSystem\static_root'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
-
+#Enter your own keys.
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51OLi3ALYWee0pOU1kWHMuhXAoNhW5gAARHBgBVO6x9H5aYWwPC7WFQrlF3pC61SPYVL1AYVQyI1Kq0K01a7blhT200sL6U4pXX'
-STRIPE_SECRET_KEY = 'sk_test_51OLi3ALYWee0pOU1I27z39rheeMmzKMzIxcBrvJydYY6NBU32OCE6x7EvuwKJMhYeBkidCWUSNqiMPSWn0Kp8njP00AWn3np7h'
+STRIPE_PUBLISHABLE_KEY = ''
+STRIPE_SECRET_KEY = ''
 
 
 # Email configuration for Gmail
